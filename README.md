@@ -1,4 +1,4 @@
-# React Redux with TypeScript 1
+# React Redux with TypeScript 2
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Getting Started
 
 ```
-git clone git@github.com:AtaruOhto/ns-redux-tutorial-1.git starter
+git clone git@github.com:AtaruOhto/ns-redux-tutorial-2.git starter
 cd starter
 yarn 
 yarn start
