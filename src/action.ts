@@ -5,19 +5,10 @@ export const addTodo = actionCreator<string>(
   'ADD_TODO',
 );
 
-// interface IDeleteTodoPayload {
-//   id: number
-// }
+export const deleteTodo = actionCreator<number>(
+  'DELETE_TODO',
+);
 
-// export const deleteTodo = actionCreator<IDeleteTodoPayload>(
-//   'DELETE_TODO',
-// );
-
-// interface IUpdateDoneTodoPayload {
-//   id: number,
-//   isDone: boolean
-// }
-
-// export const updateDoneTodo = actionCreator<IUpdateDoneTodoPayload>(
-//   'UPDATE_DONE_TODO',
-// );
+export const updateDoneTodo = actionCreator<number>(
+  'UPDATE_DONE_TODO',
+);
